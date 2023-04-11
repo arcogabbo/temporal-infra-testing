@@ -3,14 +3,14 @@
 #
 env_short      = "d"
 env            = "dev"
-prefix         = "product"
+prefix         = "io"
 location       = "westeurope"
 location_short = "weu"
 
 tags = {
   CreatedBy   = "Terraform"
   Environment = "DEV"
-  Owner       = "product"
+  Owner       = "IO"
   Source      = "https://github.com/pagopa/product-infra"
   CostCenter  = "TS310 - PAGAMENTI & SERVIZI"
 }
@@ -19,3 +19,5 @@ tags = {
 # DNS
 #
 dns_zone_product_prefix = "dev.product"
+
+log_analytics_workspace_id=CHANGEME

@@ -1,7 +1,7 @@
 # general
 
 variable "prefix" {
-  type    = string
+  type = string
   validation {
     condition = (
       length(var.prefix) <= 6
@@ -45,4 +45,9 @@ variable "tags" {
   default = {
     CreatedBy = "Terraform"
   }
+}
+
+#####
+variable "log_analytics_workspace_id" {
+  type = string
 }
