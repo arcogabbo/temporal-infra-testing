@@ -14,10 +14,3 @@ tags = {
   Source      = "https://github.com/pagopa/product-infra"
   CostCenter  = "TS310 - PAGAMENTI & SERVIZI"
 }
-
-#
-# DNS
-#
-dns_zone_product_prefix = "dev.product"
-
-log_analytics_workspace_id=CHANGEME

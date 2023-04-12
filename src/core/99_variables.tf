@@ -46,8 +46,3 @@ variable "tags" {
     CreatedBy = "Terraform"
   }
 }
-
-#####
-variable "log_analytics_workspace_id" {
-  type = string
-}
