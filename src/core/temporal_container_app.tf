@@ -55,7 +55,7 @@ resource "azurerm_container_app" "temporal_container_app" {
 
     container {
       name   = "temporal-worker-fn-admin"
-      image  = "CHANGEME"
+      image  = "ghcr.io/arcogabbo/io-functions-admin-temporal@sha256:a145c262282333e739b3149e7e31ed9993b2912646b2723ebd1cf3cdeaf0a3ef"
       cpu    = 0.50
       memory = "0.5Gi"
     }
